@@ -1,0 +1,46 @@
+#Header{
+    font-size:48px;
+    left:490px;
+}
+
+.field{
+    position:absolute;
+    height:150px;
+    width:150px;
+    background-color: aliceblue;
+    border:3px ridge rgb(41, 15, 82);
+    cursor: pointer;
+    display:none;
+}
+
+#Timer{
+    position:absolute;
+    left:430px;
+    top:110px;
+    height:100px;
+    width:400px;
+    background-color: rgb(166, 138, 211);
+    color:rgb(41, 15, 82);
+    text-align: center;
+    line-height:70px;
+    font-size:40px;
+}
+
+#start{
+    position:absolute;
+    height:100px;
+    width:200px;
+    top:200px;
+    left:1100px;
+    background-color: rgb(175, 149, 218);
+    color:rgb(41, 15, 82);
+    text-align: center;
+    box-shadow:3px -5px 0 rgb(136, 101, 190) inset;
+    font-size:25px;
+    font-weight: bold;
+}
+
+
+
+
+
