@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Крестики-нолики</title>
+    <title>Крестики - нолики</title>
     <style>
         body{
                 background: rgba(32, 36, 70, 0.966);
@@ -17,7 +17,10 @@
 </head>
 <body>
     <span id="Header"><b>Крестики-нолики</b></span>
-    <div id="Timer">Timer</div>
+    <div class="Timer">
+        <span id="min">00</span><span>  :  </span>
+        <span id="sec">00</span>
+    </div>
 
     <div class="field" id="0"></div>
     <div class="field" id="1"></div>
@@ -29,6 +32,9 @@
     <div class="field" id="7"></div>
     <div class="field" id="8"></div>
 
+    <div id="dash"></div>
+    <div id="message"></div>
+  
     <button id="start">Новая игра</button>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="app.js"></script>
